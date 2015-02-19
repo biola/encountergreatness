@@ -1,0 +1,8 @@
+.DS_Store
+.htaccess
+.bundle
+*~
+*.cache
+*.log
+*.pid
+tmp/**/*

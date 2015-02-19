@@ -1,0 +1,94 @@
+span.editText {
+	display: block;
+	cursor: pointer;
+}
+
+span.editText textarea {
+	border: 0;
+	padding: 0;
+	width: 100%;
+	resize: none;
+	color: inherit;
+	display: block;
+	overflow: hidden;
+	font-size: inherit;
+	line-height: inherit;
+	font-family: inherit;
+	background-color: transparent;
+}
+
+.change {
+	width: 100%;
+	height: auto;
+	padding: 20px;
+	margin-top: 5px;
+	background: rgba(102, 124, 185, 1);
+}
+
+.change select {
+	width: 20%;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	font-weight: bold;
+	background: #333;
+}
+
+.settings {
+	width: 100%;
+	clear: both;
+	color: #fff;
+	height: auto;
+	padding: 5px 0;
+	text-align: center;
+	background: #333;
+}
+.settings a {
+	color: white;
+}
+
+div.settings div.change {
+	width: 52%;
+	text-align: left;
+	margin-left: 10%;
+}
+
+section .form_description form {
+	font-size: 16px;
+}
+
+
+    @media screen and (max-width: 768px) {
+        nav .pill {
+        	/*display: none;*/
+        	font-size: .75rem;
+        	padding: .25em;
+			right: .5rem;
+			margin-top: -1.2em;
+			font-size: .8em;
+			text-decoration: none;
+        }
+        nav .social a {
+        	font-size: .75rem;
+        	padding: .25em;
+			border-radius: 3rem;
+			width: .75rem;
+			height: .75rem;
+
+        }
+        nav .logo {
+          display: none;
+        }
+        nav {
+        	position: absolute;
+        	height: 65px;
+        }
+        section form input, section form .select {
+        	width: 100%;
+        	margin-left: 0 !important;
+        }
+        section .container {
+        	width: 90%;
+        }
+
+    }
