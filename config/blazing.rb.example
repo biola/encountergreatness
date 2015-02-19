@@ -1,0 +1,7 @@
+target :'ruby2.staging', 'johnd0@ruby2.staging.biola.edu:/srv/rack/encountergreatness', rails_env: 'staging'
+target :'ruby6a.prod',   'johnd0@ruby6a.prod.biola.edu:/srv/rack/encountergreatness',   rails_env: 'production'
+target :'ruby6b.prod',   'johnd0@ruby6b.prod.biola.edu:/srv/rack/encountergreatness',   rails_env: 'production'
+
+env_scripts '/etc/profile'
+
+rake :post_deploy

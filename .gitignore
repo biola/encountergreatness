@@ -5,4 +5,5 @@
 *.cache
 *.log
 *.pid
+config/blazing.rb
 tmp/**/*
