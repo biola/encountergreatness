@@ -8,5 +8,10 @@ module EncounterGreatness
     get '/' do
       slim :homepage
     end
+
+    not_found do
+      status 404
+      slim :not_found
+    end
   end
 end
