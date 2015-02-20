@@ -11,16 +11,16 @@ head
   link href==url("themes/biola/css/styles.css") rel="stylesheet" /
   link href==url("themes/biola/css/admin.css") rel="stylesheet" /
   link href==url("themes/biola/js/vendor/magnific/magnific-popup.css") rel="stylesheet" /
-  meta content="https://www.youtube.com/watch?v=78-Jcz-khLQ?autoplay=1&amp;rel=0&amp;showinfo=0&amp;modestbranding=1&amp;controls=2" name="description" /
+  meta content="https://www.youtube.com/watch?v=78-Jcz-khLQ?autoplay=1&rel=0&showinfo=0&modestbranding=1&controls=2" name="description" /
   meta content="biola, honors, torrey" name="keywords" /
   script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"
   script src==url("themes/biola/js/vendor/modernizr.js")
 body
   nav
     .social
-      a.icon.icon_twitter> href="https://twitter.com/home?status=Encounter%20Greatness%20at%20%40biolau's%20%40torreyhonors%20//localhost:8000/" target="_blank"
-      a.icon.icon_facebook> href="https://www.facebook.com/sharer/sharer.php?u=//localhost:8000/" target="_blank"
-      a.icon.icon_mail href="mailto:?&amp;subject=Biola%20University's%20Torrey%20Honors%20Program&amp;body=//localhost:8000/" target="_blank"
+      a.icon.icon_twitter> href="https://twitter.com/home?status=Encounter%20Greatness%20at%20%40biolau's%20%40torreyhonors%20#{request.base_url}" target="_blank"
+      a.icon.icon_facebook> href="https://www.facebook.com/sharer/sharer.php?u=#{request.base_url}" target="_blank"
+      a.icon.icon_mail href="mailto:?&subject=Biola%20University's%20Torrey%20Honors%20Program&body=#{request.base_url}" target="_blank"
     a.logo.icon.icon_torrey
     a.pill href="http://academics.biola.edu/torrey/" target="blank"
       | Torrey Honors Homepage &raquo;
