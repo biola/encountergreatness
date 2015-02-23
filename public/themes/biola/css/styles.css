@@ -797,7 +797,8 @@ input[type=checkbox] {
       margin-bottom: 1rem;
       color: white;
       text-align: center;
-      font-family: "minion-pro", serif; }
+      font-family: "minion-pro", serif;
+      min-height: 70px; }
     .course .description i {
       width: 100%;
       text-align: center;
